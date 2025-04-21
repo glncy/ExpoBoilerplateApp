@@ -6,6 +6,7 @@ module.exports = function (api) {
         "babel-preset-expo",
         {
           jsxImportSource: "nativewind",
+          unstable_transformImportMeta: true,
           "react-compiler": {
             sources: (filename) => {
               const path = process.cwd();

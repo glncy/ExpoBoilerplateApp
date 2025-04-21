@@ -29,6 +29,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     "expo-router",
     "expo-image-picker",
     "react-native-edge-to-edge",
+    "expo-web-browser",
     [
       "expo-splash-screen",
       {
